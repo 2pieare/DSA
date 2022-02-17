@@ -5,7 +5,7 @@ public:
         vector<int> v;
         for(int i=0;i<nums.size();i++)
         {
-            if(m.find(target-nums[i])!=m.end()) //not found 
+            if(m.find(target-nums[i])!=m.end()) //not foundd
             {
                 v.push_back(m[target-nums[i]]);
                 v.push_back(i);
