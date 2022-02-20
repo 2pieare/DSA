@@ -27,5 +27,17 @@ public:
             temp=temp->next;
         }
         return dummy->next->next;
+        
+        /*
+        if(!head || !head -> next)
+            return NULL;
+        int curr = 0;
+        do {
+            curr += head -> val;
+            head = head -> next; 
+        } while(head -> val);
+        
+        return new ListNode(curr, mergeNodes(head));
+        */
     }
 };
